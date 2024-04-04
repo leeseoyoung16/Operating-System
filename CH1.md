@@ -1,4 +1,4 @@
-![image](https://github.com/leeseoyoung16/Operating-System/assets/101916673/644265ce-ba2b-4c82-961b-512f5ab24bf5)# Operating-System 🦕
+# Operating-System 🦕
 ## ch1
 
 ## What Operating-Syestems Do
