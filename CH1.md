@@ -1,5 +1,4 @@
-# Operating-System 🦕
-## ch1
+# Operating-System ch1🦕
 
 ## What Operating-Syestems Do
 OS -> 컴퓨터의 하드웨어를 관리, 하드웨어와 소프트웨어, 사용자를 매개하는 프로그램
@@ -40,9 +39,13 @@ Bootstrap Program : 전원을 켜거나 재부팅할 때 로드되는 초기화 
 
 -> ROM(Read Only Memory)이나 EEPROM(Electrically Eraable Programmable Read Only Memory)에 저장.
 
--> 주로 Firmware(펌웨어)라고 불림.
+-> 주로 Firmware(펌웨어: 쓰기 작업이 자주 발생하지 않고 비휘발성인 저장장치)라고 불림.
 
 Bootstrap program은 시스템을 초기화하고 Boot loader를 실행, Boot loader는 OS를 실행.
+
+## 저장장치 단위
+
+bit - byte - word - KB - MB - GB - TB - PB - EB - ZB - YB
 
 ## Computer-System Operatrion
 I/O Device와 CPU는 동시 실행 가능. 
