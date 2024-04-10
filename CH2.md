@@ -83,3 +83,55 @@ System call table (= Interrupt vector): 메모리의 특정 주소 범위에 어
 - 통신 : send/receive message, transfer status
 - 보호
 
+# Operating System Structure
+
+현대 운영체제는 계층을 나눠서 시스템을 관리함
+
+## simple structure
+![image](https://github.com/leeseoyoung16/Operating-System/assets/101916673/d588112f-733d-43db-93a0-abfc45e2e236)
+
+과거에는 사실상 계층이 구분되지 않았음. 
+
+MS-DOS에서는 사용자 프로그램이 입출력 루틴에 접근해 디스플레이와 디스크 드라이브에 직접 쓰기를 할 수 있었음. 
+
+따라서 만약 사용자 프로그램에 문제가 생기면 전체 시스템에 문제가 생김. 
+
+-> UNIX 시스템은 이것을 개선함
+
+전통적인 UNIX 시스템 구조는 MS-DOS에 비해 기능이 분리되었지만, 여전히 하나의 계층이 너무 많은 일을 함
+
+하드웨어 계층 위, 사용자 계층 아래에 있는 커널이 모든 기능을 제공함
+
+이러한 모놀리딕 (Monolithic) 구조는 구현과 유지보수가 쉽지 않음
+
+## Layered Approach
+
+![image](https://github.com/leeseoyoung16/Operating-System/assets/101916673/e7881142-06bf-4176-b3fa-17129714795d)
+
+운영체제를 더 세분화해 계층을 분리한 것이 계층적 접근(Layered approach) 방식임
+
+가장 아래에 있는 계층 (레이어 0)은 하드웨어, 가장 높은 계층 (레이어 N)은 사용자 인터페이스
+
+이 방식은 유지보수가 아주 편함, 하나의 계층에만 신경쓰면 다른 계층에 아무런 신경을 쓰지 않아도 되기 때문
+
+## Microkernels
+
+마이크로커널 : 커널에서 핵심적인 요소만 남긴 가벼운 커널을 말함
+
+커널이 커질수록 문제가 생길 가능성이 높아지고, 유지보수가 힘들어지기 때문에 커널을 가볍게 만들 필요가 있었음
+
+- 코드 양이 훨씬 적어 컴파일, 테스트 시간이 비교적 짧고, 다른 시스템에 이식 (Porting)하기도 쉬움
+- 시스템 프로그램을 추가해 기능을 늘리려하면 속도가 느려짐
+- OS X의 커널(Darwin)의 일부가 마이크로커널 Match를 기반으로 만들어졌으며, IOT에도 마이크로커널이 사용됨
+
+## Modules
+
+
+
+
+
+## 출처 : 
+
+https://parksb.github.io/article/6.html
+
+https://www.scaler.com/topics/operating-system-structure/
