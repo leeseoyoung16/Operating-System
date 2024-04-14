@@ -106,3 +106,13 @@
 ## 총정리
 
 <img width="326" alt="image" src="https://github.com/leeseoyoung16/Operating-System/assets/101916673/776a477c-1a70-4d60-a77d-a774d2d480e3">
+
+### 출처 😊
+
+https://m.blog.naver.com/tlsrka649/221958256266
+
+https://doitnow-man.tistory.com/entry/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A
+%A4%EA%B0%84-%ED%86%B5%EC%8B%A0-IPCinter-process-communication-%EC%A
+2%85%EB%A5%98
+
+https://dar0m.tistory.com/233
